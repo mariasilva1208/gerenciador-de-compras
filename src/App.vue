@@ -120,7 +120,6 @@ li button {
   font-size: 0.8rem;
 }
 
-/* Lista */
 ul {
   list-style: none;
   padding: 0;
