@@ -1,11 +1,13 @@
-<script setup lang="ts"></script>
+<script setup> 
+import { ref } from 'vue'
 
-<template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
-</template>
+const itemNovo = ref('') // coloquei para guardar o que o usuário digitar
+const lista = ref([]) // coloquei para guardar a lista de itens
 
-<style scoped></style>
+const adicionarItem = () => {
+  if (itemNovo.value.trim() !== '') { // Coloquei para verificar se o campo não está vazio
+    lista.value.push(itemNovo.value) // Adiciona o novo item à lista
+    itemNovo.value = '' // Limpa o campo original
+  }
+}
+</script>
