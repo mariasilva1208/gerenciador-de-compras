@@ -10,4 +10,7 @@ const adicionarItem = () => {
     itemNovo.value = '' // Limpa o campo original
   }
 }
+const removerProduto = (id) => {
+  lista.value.splice(id, 1) // Remove o item da lista com base no índice
+}
 </script>
