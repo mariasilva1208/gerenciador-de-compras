@@ -51,6 +51,10 @@ const removerProduto = (index) => {
     <p v-else style="color: #666; font-style: italic;">
       Sua cesta está vazia! Adicione algo acima.
     </p>
+    <footer class="rodape">
+      <p>Desenvolvido com cansaço por <strong>Maria Eduarda Patu Ângelo da Silva</strong></p>
+      <p>© 2026 </p>
+    </footer>
   </main>
 </template>
 
@@ -145,5 +149,15 @@ li {
   font-style: italic;
   margin-top: 20px;
 }
+.rodape {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+  font-size: 0.9rem;
+  color: #888;
+}
 
+.rodape strong {
+  color: #000704; 
+}
 </style>
