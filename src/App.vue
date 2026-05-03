@@ -56,4 +56,94 @@ const removerProduto = (index) => {
 
 <style scoped>
 
+
+main {
+  max-width: 450px;
+  margin: 40px auto;
+  padding: 25px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: #333;
+}
+
+h1 {
+  color: #42b883; 
+  margin-bottom: 25px;
+}
+
+
+input {
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  width: 60%;
+  margin-right: 10px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+input:focus {
+  border-color: #42b883;
+}
+
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: opacity 0.2s;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+
+.input-group button {
+  background-color: #42b883;
+  color: white;
+}
+
+
+li button {
+  background-color: #ff4d4d;
+  color: white;
+  padding: 5px 10px;
+  font-size: 0.8rem;
+}
+
+/* Lista */
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  background: #f9f9f9;
+  margin-bottom: 10px;
+  padding: 12px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.contador {
+  margin-top: 20px;
+  font-size: 1.1rem;
+  color: #666;
+}
+
+.vazia {
+  color: #999;
+  font-style: italic;
+  margin-top: 20px;
+}
+
 </style>
