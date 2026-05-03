@@ -1,42 +1,17 @@
-# gerenciador de compras
+# Gerenciador de Compras com Vue.js
 
-This template should help get you started developing with Vue 3 in Vite.
+**Aluna:** Maria Eduarda Patu Ângelo da Silva
+**Disciplina:** Frameworks Modernos para Desenvolvimento de Sistemas  
+**Instituição:** UNEMAT - Universidade do Estado de Mato Grosso  
+**Professor:** Prof. Me. Cides S. Bezerra
 
-## Recommended IDE Setup
+# Descrição do Projeto
+Este projeto é um gerenciador de listas de compras simples, desenvolvido como atividade prática para a disciplina de Frameworks Modernos. A aplicação permite adicionar itens em tempo real, visualizar a lista atualizada, remover produtos individualmente e acompanhar a quantidade total de itens na cesta.
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Recommended Browser Setup
-
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
-
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
+###  Tecnologias e Conceitos Utilizados:
+* **Vue.js 3:** Composition API com `<script setup>`.
+* **Reatividade:** Uso de `ref()` para controle de estado dos dados.
+* **Diretivas:** * `v-model` para capturar a entrada de novos produtos.
+    * `v-for` para renderizar a lista dinamicamente.
+    * `v-if/v-else` para alternar entre a lista e a mensagem de "cesta vazia".
+* **Git:** Versionamento completo com histórico de commits enviado ao GitHub.
